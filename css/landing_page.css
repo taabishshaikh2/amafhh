@@ -1,0 +1,1334 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    background: url(/images/logoamafhh.png);
+    position: absolute;
+    width: 340px;
+    height: 91px;
+    left: 13px;
+    top: 15px;
+}
+/*nav{
+    display: flex;
+    align-items: center;
+    
+}*/
+nav ul{
+    position: absolute;
+    left: 48%;
+    top: 45px;
+    list-style: none;
+    display: block;
+    
+    
+    
+}
+nav ul li{
+   
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+    border-radius:8px;
+    margin-right: 30px;
+    width: 150px;
+    line-height: 60px;
+    cursor:pointer;
+	color:#ffffff;
+    font-family:Arial;
+    text-shadow:0px 1px 0px #3d768a;
+}
+
+nav ul li:hover{
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+
+}
+
+
+
+
+.gallery_btn img{
+    position: absolute;
+    left: 145px;
+    top: 28px;
+}
+
+.menu_btn{
+   
+    display: none;
+    background: url(/images/ant-design_menu-unfold-outlined.png);
+    
+}
+.container{
+    position: absolute;
+    width: 98%;
+    height: 1421px;
+    left: 13px;
+    top: 146px;
+    bottom: 10px;
+    
+    background: #F3F3F3;
+    border: 1px solid rgba(156, 156, 156, 0.5);
+    box-sizing: border-box;
+}
+
+.intro_box{
+    position: absolute;
+    width: 561px;
+    height: 347px;
+    left: 4%;
+    top: 36px;
+
+    background: #F3F3F3;
+    border: 1px solid #B3A7A7;
+    box-sizing: border-box;
+
+}
+.intro{
+    position: absolute;
+    width: 505px;
+    height: 256px;
+    left: 11px;
+    top: 9px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 47px;
+    text-align: center;
+
+    color: #000000;
+}
+.slider{
+    position: absolute;
+    width: 20%;
+    height: 354px;
+    left: 730px;
+    top: 35px;
+   /* display: none;*/
+}
+
+.Abus{
+    position: absolute;
+    width: 121px;
+    height: 47px;
+    left: 318px;
+    top: 439px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+.About{
+    position: absolute;
+    width: 530px;
+    height: 332px;
+    left: 91px;
+    top: 486px;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #000000;
+}
+.us_box{
+    position: absolute;
+    width: 528px;
+    height: 260px;
+    left: 752px;
+    top: 482px;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #433D3D;
+}
+
+.CM_img{
+    background: url(/images/Compact-Machine\ 1.png);
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 781px;
+    top: 763px;
+
+}
+.Adj_img{
+    background: url(/images/construction\ 1.png) ;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 923px;
+    top: 763px;
+
+}
+.PP_img{
+    background: url(/images/manufacturing\ 1.png);
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    
+    left: 1060px;
+    top: 763px;
+
+}
+.TC_img{
+    background: url(/images/hot-water\ 1.png);
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 1198px;
+    top: 763px;
+
+}
+.cm{
+    position: absolute;
+width: 105px;
+height: 18px;
+left: 757px;
+top: 840px;
+
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #766565;
+}
+.adj{
+    position: absolute;
+width: 105px;
+height: 18px;
+left: 902px;
+top: 840px;
+
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #766565;
+}
+.pp{
+    position: absolute;
+width: 105px;
+height: 18px;
+left: 1040px;
+top: 840px;
+
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #766565;
+}
+.tc{
+    position: absolute;
+width: 105px;
+height: 18px;
+left: 1171px;
+top: 840px;
+
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #766565;
+}
+.Description{
+    position: absolute;
+    width: 499px;
+    height: 419px;
+    left: 106px;
+    top: 931px;
+
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.Description li{
+    margin-left: 30px;
+    list-style: lower-roman;
+}
+
+.email_img{
+    position: absolute;
+width: 46px;
+height: 46px;
+left: 755px;
+top: 962px;
+}
+.phone_img{
+    position: absolute;
+width: 48px;
+height: 48px;
+left: 756px;
+top: 1045px;
+}
+.address_img{
+    position: absolute;
+width: 42px;
+height: 42px;
+left: 759px;
+top: 1137px;
+}
+.email{
+    position: absolute;
+width: 406px;
+height: 33px;
+left: 845px;
+top: 969px;
+
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 34px;
+
+color: #615A5A;
+}
+.phone{
+    position: absolute;
+width: 266px;
+height: 38px;
+left: 859px;
+top: 1055px;
+
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 34px;
+
+color: #615A5A;
+}
+.address{
+    position: absolute;
+width: 407px;
+height: 115px;
+left: 845px;
+top: 1137px;
+
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 34px;
+
+color: #615A5A;
+}
+.contact_us{
+    position: absolute;
+    width: 187px;
+    height: 53px;
+    left: 888px;
+    top: 1274px;
+    cursor: pointer;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    outline: none;
+    color: #FFFFFF;
+}
+.est{
+    position: absolute;
+width: 214px;
+height: 25px;
+left: 571px;
+top: 1385px;
+
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #635454;
+}
+.box{
+    position: absolute;
+    height: 80px;
+    width: 100px;
+    left: 76%;
+    top: 120px;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+    font-family:Arial;
+    text-shadow:0px 1px 0px #3d768a;
+    display: none;
+}
+.box li{
+    
+    list-style: none;
+    margin: 15px;
+}
+.links{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 18px;
+}
+.box::before{
+    content: '';
+    
+    position: absolute;
+    right: 0%;
+    top: -30px;
+    
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid #599bb3;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+   
+    
+    
+
+}
+
+
+.contact_form{
+    position: absolute;
+    left:800px;
+    top:840px;
+    width: 400px;
+    height: 430px;
+    padding: 15px;
+   border-radius: 10px;;
+    background: #00b7ff;
+    display: none;
+  
+}
+.contact_form h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.input_box input[type="text"],input[type="number"],input[type="email"], textarea {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    margin-bottom:10px ;
+    font-style: italic;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contact_form textarea{
+    height: 80px;
+    resize: none;
+}
+.submit input[type='submit']{
+    border:0px;
+    margin-top: 10px;
+    padding:5px;
+    width:100%;
+    letter-spacing: 5px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+  
+    
+    background: rgb(166, 255, 0);
+}
+.error{
+    background: red;
+    
+    margin-bottom: 10px;
+    padding:0px;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+
+@media(max-width: 1400px){
+    nav ul{
+        position: absolute;
+        left: 40%;
+    }
+    .box{
+        position: absolute;
+        left: 74%;
+    }
+}
+@media(max-width: 1218px){
+    nav ul{
+        position: absolute;
+        left: 30%;
+    }
+    .box{
+        position: absolute;
+        left: 68%;
+    }
+}
+@media(max-width: 1045px){
+    nav ul{
+        position: absolute;
+        left: 40%;
+        
+    }
+    nav ul li{
+        width: 90px;
+    }
+    .box{
+        position: absolute;
+        left: 65%;
+    }
+}
+
+@media(max-width:817px){
+    nav ul li{
+        width: 85px;
+    }
+}
+
+@media(max-width:800px) and (max-height: 900px){
+    
+    nav ul{
+        display: none;
+    }
+    .logo{
+        background: url(/images/respnosive\ logo.png);
+        width: 155px;
+        height: 80px;
+        position: absolute;
+        top: 30px;
+    }
+    .menu_btn{
+        display: block;
+        
+        position: absolute;
+        left: 80%;
+        top: 30px;
+        cursor: pointer;
+
+    }
+    nav ul{
+        display: none;
+        position: absolute;
+        top: 95px;
+        left: 69%;
+        width: 200px;
+        height: 250px;
+        background: rgb(0, 0, 0);
+    }
+    nav ul li{
+        float: none;
+        box-shadow: 0px ;
+        line-height: 50px;
+        box-shadow: 0px 10px 14px -7px #000000;
+        background: rgb(255, 255, 255);
+        background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+        text-align: center;
+        text-shadow: 0px;
+        border-radius:8px;
+        height: 50px;
+        width: 178px;
+        margin: 10px;
+        color: black;
+        
+        
+    }
+
+    nav ul li:hover{
+        transform: translateX(6px);
+        
+        background:linear-gradient(to bottom, #a1ffae 5%, #7aff3c 100%);
+        
+        
+    }
+    nav ul::before{
+        content: '';
+        
+       
+        position: absolute;
+        top: -40px;
+        right: 0%;
+
+
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid rgb(0, 0, 0);
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent;
+    }
+    .box{
+        position: absolute;
+        top: 230px;
+        left: 55%;
+        background: white;
+        
+    }
+    .box::before{
+        content: '';
+        
+        position: absolute;
+        top:0%;
+        right: -30%;
+        
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-left: 15px solid rgb(255, 255, 255);
+       
+        
+        
+
+    }
+    .links{
+        color: black;
+    }
+    .container{
+        
+        width: 97%;
+        height: 1980px;
+        margin-bottom: 5px;
+    }
+    .intro_box{
+       position: absolute;
+        left: 10px;
+        top: 10px;
+        width: 95%;
+        height: 170px;
+      
+    }
+    .intro{
+        padding: 5px;
+        font-size: 26px;
+        line-height: 22px;
+        width: 95%;
+        
+        text-align:center;
+    }
+    .slider{
+        position: absolute;
+        left: 10px;
+        top: 190px;
+
+
+        width: 95%;
+        height: 230px;
+
+    }
+    .machine_img{
+        width: 100%;
+        height: 100%;
+    }
+    .Abus{
+            font-size: 20px;
+            position: absolute;
+            left: 43%;
+    }
+   
+    .About{
+        position: relative;
+        left: 20px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        width: 95%;
+        height: 10%;
+        white-space: normal;
+        }
+    .us_box{
+        position: absolute;
+        font-size: 19px;
+        left: 20px;
+        top: 800px;
+        width: 95%;
+        letter-spacing: 1px;
+        line-height: 24px;
+    }
+    .Description{
+        position: absolute;
+        top: 100%;
+    }
+    .CM_img{
+
+        position: absolute;
+        left: 70px;
+        top: 1050px;
+        
+    }
+    .Adj_img{
+
+        position: absolute;
+        left: 220px;
+        top: 1050px;
+        
+    }
+    .PP_img{
+
+        position: absolute;
+        left: 360px;
+        top: 1050px;
+        
+    }
+    .TC_img{
+
+        position: absolute;
+        left: 520px;
+        top: 1050px;
+        
+    }
+    .cm{
+        position: absolute;
+        left: 50px;
+        top: 1128px;
+    }
+    .adj{
+        position: absolute;
+        left: 195px;
+        top: 1128px;
+    }
+    .pp{
+        position: absolute;
+        left: 340px;
+        top: 1128px;
+    }
+    .tc{
+        position: absolute;
+        left: 500px;
+        top: 1128px;
+    }
+    .Description{
+        position: absolute;
+        top: 1170px;
+        left: 30px;
+    }
+    .email_img{
+        position: absolute;
+        left: 15px;
+        top: 1540px;
+    }
+    .phone_img{
+        position: absolute;
+        left: 12px;
+        top: 1620px;
+    }
+    .address_img{
+        position: absolute;
+        left: 15px;
+        top: 1710px;
+    }
+    .email{
+        position: absolute;
+        left: 80px;
+        top: 1545px;
+    }
+    .address{
+        position: absolute;
+        left: 80px;
+        top: 1710px;
+    }
+    .phone{
+        position: absolute;
+        left: 80px;
+        top: 1630px;
+    }
+    .contact_us{
+        position: absolute;
+        left: 250px;
+        top: 1850px;
+    }
+    .contact_form{
+        position: absolute;
+        left: 160px;
+        top: 1415px;
+    }
+    .est{
+        position: absolute;
+        left: 240px;
+        top: 1940px;
+    }
+    .menu_btn{
+        position: absolute;
+        left: 90%;
+    }
+}
+@media(max-width:720px){
+    nav ul{
+        left:70%;
+    }
+    .box{
+        left: 55%;
+    }
+}
+@media(max-width:685px){
+    nav ul{
+        left:68%;
+    }
+    .box{
+        left: 53%;
+    }
+}
+@media (max-width:650px){
+    nav ul{
+        left:65%;
+    }
+    .box{
+        left: 48.5%;
+    }
+    .us_box{
+        position: absolute ;
+        left: 10px;
+        top: 850px;
+        width: 95%;
+    }
+    .CM_img{
+
+        position: absolute;
+        left: 40px;
+        top: 1090px;
+        
+    }
+    .Adj_img{
+
+        position: absolute;
+        left: 180px;
+        top: 1090px;
+        
+    }
+    .PP_img{
+
+        position: absolute;
+        left: 320px;
+        top: 1090px;
+        
+    }
+    .TC_img{
+
+        position: absolute;
+        left: 470px;
+        top: 1090px;
+        
+    }
+    .cm{
+        position: absolute;
+        left: 22px;
+        top: 1165px;
+    }
+    .adj{
+        position: absolute;
+        left: 158px;
+        top: 1165px;
+    }
+    .pp{
+        position: absolute;
+        left: 300px;
+        top: 1165px;
+    }
+    .tc{
+        position: absolute;
+        left: 450px;
+        top: 1165px;
+    }
+    .Description{
+        position: absolute;
+        top: 1200px;
+        left: 30px;
+    }
+    .email_img{
+        position: absolute;
+        left: 15px;
+        top: 1540px;
+    }
+    .phone_img{
+        position: absolute;
+        left: 12 px;
+        top: 1620px;
+    }
+    .address_img{
+        position: absolute;
+        left: 15px;
+        top: 1710px;
+    }
+    .email{
+        position: absolute;
+        left: 80px;
+        top: 1545px;
+    }
+    .address{
+        position: absolute;
+        left: 80px;
+        top: 1710px;
+    }
+    .phone{
+        position: absolute;
+        left: 80px;
+        top: 1630px;
+    }
+    .contact_us{
+        position: absolute;
+        left: 250px;
+        top: 1850px;
+    }
+    .contact_form{
+        position: absolute;
+        left: 160px;
+        top: 1415px;
+    }
+    .est{
+        position: absolute;
+        left: 240px;
+        top: 1940px;
+    }
+    .menu_btn{
+        position: absolute;
+        left: 90%;
+    }
+
+}
+
+@media (max-width:600px){
+    nav ul{
+        left:63%;
+    }
+    .box{
+        left: 47%;
+    }
+    .container{
+        height: 2100px;
+    }
+    .us_box{
+        position: absolute ;
+
+        top: 900px;
+        width: 95%;
+    }
+    .CM_img{
+        
+        position: absolute;
+        left: 20px;
+        top: 1200px;
+        
+    }
+    .Adj_img{
+
+        position: absolute;
+        left: 140px;
+        top: 1200px;
+        
+    }
+    .PP_img{
+
+        position: absolute;
+        left: 260px;
+        top: 1200px;
+        
+    }
+    .TC_img{
+
+        position: absolute;
+        left: 370px;
+        top: 1200px;
+        
+    }
+    .cm{
+        position: absolute;
+        left: 5px;
+        top: 1275px;
+    }
+    .adj{
+        position: absolute;
+        left: 120px;
+        top: 1275px;
+    }
+    .pp{
+        position: absolute;
+        left: 240px;
+        top: 1275px;
+    }
+    .tc{
+        position: absolute;
+        left: 350px;
+        top: 1275px;
+    }
+    .Description{
+        position: absolute;
+        top: 1320px;
+        left: 10px;
+        width: 98%;
+    }
+    .email_img{
+        position: absolute;
+        left: 15px;
+        top: 1700px;
+    }
+    .phone_img{
+        position: absolute;
+        left: 12px;
+        top: 1770px;
+    }
+    .address_img{
+        position: absolute;
+        left: 15px;
+        top: 1850px;
+    }
+    .email{
+        position: absolute;
+        left: 80px;
+        top: 1700px;
+    }
+    .address{
+        position: absolute;
+        left: 80px;
+        top: 1850px;
+    }
+    .phone{
+        position: absolute;
+        left: 80px;
+        top: 1775px;
+    }
+    .contact_us{
+        position: absolute;
+        left: 200px;
+        top: 1975px;
+    }
+    .contact_form{
+        position: absolute;
+        left: 100px;
+        top: 1540px;
+    }
+    .est{
+        position: absolute;
+        left: 190px;
+        top: 2070px;
+    }
+    .menu_btn{
+        position: absolute;
+        left: 90%;
+    }
+
+}
+@media(max-width:575px){
+    nav ul{
+        left: 60%;
+    }
+    .box{
+        left: 45%;
+    }
+}
+@media(max-width:575px){
+    nav ul{
+        left:60%;
+    }
+    .box{
+        left: 41%;
+    }
+}
+@media (max-width:500px){
+    nav ul{
+        left:58%;
+    }
+    .box{
+        left: 37%;
+    }
+    .container{
+        height: 2200px;
+    }
+    .about_box{
+        width: 95%;
+    }
+    .us_box{
+        position: absolute ;
+
+        top: 960px;
+        width: 95%;
+    }
+    .CM_img{
+        
+   
+        position: absolute;
+        left: 15px;
+        top: 1290px;
+        
+    }
+    .Adj_img{
+        
+        position: absolute;
+        left: 130px;
+        top: 1290px;
+        
+    }
+    .PP_img{
+
+        position: absolute;
+        left: 240px;
+        top: 1290px;
+        
+    }
+    .TC_img{
+
+        position: absolute;
+        left: 350px;
+        top: 1290px;
+        
+    }
+    .cm{
+        position: absolute;
+        left: 5px;
+        top: 1370px;
+    }
+    .adj{
+        position: absolute;
+        left: 110px;
+        top: 1370px;
+    }
+    .pp{
+        position: absolute;
+        left: 220px;
+        top: 1370px;
+    }
+    .tc{
+        position: absolute;
+        left: 330px;
+        top: 1370px;
+    }
+    .Description{
+        position: absolute;
+        top: 1410px;
+        left: 10px;
+        width: 98%;
+    }
+    .email_img{
+        position: absolute;
+        left: 15px;
+        top: 1775px;
+    }
+    .phone_img{
+        position: absolute;
+        left: 12 px;
+        top: 1850px;
+    }
+    .address_img{
+        position: absolute;
+        left: 15px;
+        top: 1925px;
+    }
+    .email{
+        position: absolute;
+        left: 80px;
+        top: 1775px;
+        font-size: 24px;
+    }
+    .address{
+        position: absolute;
+        left: 80px;
+        top: 1925px;
+        font-size: 24px;
+    }
+    .phone{
+        position: absolute;
+        left: 80px;
+        top: 1852px;
+        font-size: 24px;
+    }
+    .contact_us{
+        position: absolute;
+        left: 150px;
+        top: 2050px;
+    }
+    .contact_form{
+        position: absolute;
+        left: 40px;
+        top: 1615px;
+    }
+    .est{
+        position: absolute;
+        left: 130px;
+        top: 2150px;
+    }
+    .menu_btn{
+        position: absolute ;
+        left: 90%;
+    }
+
+}
+@media (max-width: 400px){
+    nav.showmenu ul{
+        left:46%;
+    }
+    .box{
+        left: 19%;
+    }
+    .container{
+        height: 2400px;
+    }
+    .us_box{
+        position: absolute ;
+
+        top: 1060px;
+        width: 95%;
+    }
+    .CM_img{
+        background: url(/images/Compact-Machine\ 1\ responsive.png);
+        width: 20px;
+        height: 25px;
+        position: absolute;
+        left: 38px;
+        top: 1460px;
+        
+    }
+    .Adj_img{
+        background: url(/images/construction\ 1\ responsive.png);
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        left: 128px;
+        top: 1460px;
+        
+    }
+    .PP_img{
+        
+        background:url(/images/manufacturing\ 2\ responsive.png) ;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        left: 215px;
+        top: 1460px;
+        
+    }
+    .TC_img{
+        background: url(/images/hot-water\ 2\ responsive.png);
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        left: 298px;
+        top: 1460px;
+        
+    }
+    .cm{
+        position: absolute;
+        
+        top: 1495px;
+        font-size: 10px;
+    }
+    .adj{
+        position: absolute;
+        left: 90px;
+        top: 1495px;
+    }
+    .pp{
+        position: absolute;
+        left: 175px;
+        top: 1495px;
+    }
+    .tc{
+        position: absolute;
+        left: 260px;
+        top: 1495px;
+        font-size: 11px;
+    }
+    .Description{
+        position: absolute;
+        top: 1545px;
+        left: 10px;
+        width: 98%;
+    }
+    .email_img{
+        position: absolute;
+        left: 15px;
+        top: 1975px;
+    }
+    .phone_img{
+        position: absolute;
+        left: 13px;
+        top: 2050px;
+    }
+    .address_img{
+        position: absolute;
+        left: 15px;
+        top: 2130px;
+    }
+    .email{
+        position: absolute;
+        left: 80px;
+        top: 1978px;
+        font-size: 21px;
+    }
+    .address{
+        position: absolute;
+        left: 80px;
+        top: 2130px;
+        font-size: 21px;
+        width: 75%;
+    }
+    .phone{
+        position: absolute;
+        left: 80px;
+        top: 2055px;
+        font-size: 21px;
+    }
+    .contact_us{
+        position: absolute;
+        left: 100px;
+        top: 2260px;
+    }
+    .contact_form{
+        position: absolute;
+        width: 80%;
+        left: 40px;
+        top: 1820px;
+    }
+    .est{
+        position: absolute;
+        left: 90px;
+        top: 2350px;
+    }
+    .menu_btn{
+        position: absolute;
+        left: 85%;
+    }
+
+}
